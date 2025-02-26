@@ -11,10 +11,7 @@ export default function Home() {
 
   useEffect(() => {
 
-    console.log('o');
     if (session?.user?.id) {
-      console.log('in');
-
       router.push('/quotes')
     }
   }, [session?.user?.id])
