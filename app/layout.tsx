@@ -3,6 +3,7 @@ import { Concert_One } from "next/font/google";
 import { SessionProvider } from "next-auth/react";
 import { HeroUIProvider, ToastProvider } from "@heroui/react";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 
 const concert = Concert_One({ subsets: ["latin"], weight: '400' });
@@ -29,6 +30,7 @@ export default function RootLayout({
             {children}
           </HeroUIProvider>
         </SessionProvider>
+        <Analytics />
 
       </body>
     </html>
