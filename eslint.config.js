@@ -20,13 +20,6 @@ export default [
       "react-refresh": reactRefresh,
       "auto-import": autoImport,
     },
-    settings: {
-      "import/resolver": {
-        node: {
-          exportsFields: ["exports", "require"],
-        },
-      },
-    },
     rules: {
       "react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
       "semi": ["warn", "always"],

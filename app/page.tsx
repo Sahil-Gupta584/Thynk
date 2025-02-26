@@ -1,7 +1,6 @@
 'use client';
 import { Button } from "@heroui/react";
 import { useSession } from "next-auth/react";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 
