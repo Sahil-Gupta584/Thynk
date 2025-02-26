@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-o{heroui} from"@heroui/react"
+import { heroui } from "@heroui/react";
 
 export default {
   content: [
@@ -7,7 +7,6 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}",
-
   ],
   theme: {
     extend: {
